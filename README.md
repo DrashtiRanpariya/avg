@@ -1,0 +1,2 @@
+# avg
+photo hover
