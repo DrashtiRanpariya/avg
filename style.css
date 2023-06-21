@@ -1,7 +1,8 @@
 body{
-    height: 710px;
+    height: 1720px;
     display: flex;
     margin: 0;
+
     background: linear-gradient(135deg, #295fd5, #9d8ce0);
     align-items: center;
     justify-content: center;
@@ -13,31 +14,31 @@ body{
     overflow: hidden;
 }
 .item{
-    width: 100px;
-    height: 500px;
+    width: 200px;
+    height: 1000px;
     background-position: center;
-    background-size: 500px;
+    background-size: 1000px;
     margin: 6px;
-    border-radius: 30px;
+    border-radius: 50px;
     display: inline-block;
     cursor: pointer;
 	box-shadow: 5px 5px 10px  rgba(33, 10, 53, 0.5);
 
 }
 .item::before,.item::after{
-    width: 100px;
-    height: 500px;
+    width: 200px;
+    height: 1000px;
     background-position: center;
-    background-size: 500px;
+    background-size: 1000px;
     margin: 6px;
-    border-radius: 30px;
+    border-radius: 50px;
     display: inline-block;
     cursor: pointer;
 
 }
 .item:hover{
-    width: 300px;
-    height: 550px;  
+    width: 600px;
+    height: 1100px;  
     transition-delay: 0.1s;
 	box-shadow: 5px 5px 10px  rgba(5, 8, 76, 0.8);
     
